@@ -372,7 +372,7 @@ class Builder
      * Add a join clause to the query.
      *
      * @param  string  $table
-     * @param  string  $first
+     * @param  Closure|string  $first
      * @param  string|null  $operator
      * @param  string|null  $second
      * @param  string  $type
